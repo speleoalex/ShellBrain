@@ -27,8 +27,8 @@ This Python script provides an AI-powered interactive shell that integrates with
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/ai-powered-shell.git
-   cd ai-powered-shell
+   git clone https://github.com/techmakers/ShellBrain.git
+   cd ShellBrain
    ```
 
 2. Install the required packages:
@@ -95,7 +95,12 @@ python ai_shellbrain.py [options]
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/yourusername/ai-powered-shell/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/techmakers/ShellBrain/issues) if you want to contribute.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
 ## License
 
