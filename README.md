@@ -1,6 +1,6 @@
 # ShellBrain
 
-The project is currently maintained by this repository : https://github.com/techmakers/ShellBrain/
+The project is currently maintained by this repository : https://github.com/techmakers/AIShellBrain/
 
 
 # AI-Powered Interactive Shell
@@ -16,6 +16,7 @@ This Python script provides an AI-powered interactive shell that integrates with
 - Colorized output for better readability.
 - Command history support.
 - OpenAI API key management via command line or environment variable.
+- Option to specify a different GPT model.
 
 ## Requirements
 
@@ -27,8 +28,8 @@ This Python script provides an AI-powered interactive shell that integrates with
 
 1. Clone this repository:
    ```
-   git clone https://github.com/techmakers/ShellBrain.git
-   cd ShellBrain
+   git clone https://github.com/techmakers/AIShellBrain.git
+   cd AIShellBrain
    ```
 
 2. Install the required packages:
@@ -54,8 +55,10 @@ python ai_shellbrain.py [options]
 ### Command-line Options
 
 - `--forget`: Do not maintain conversation context across multiple interactions.
+- `--y`: executes commands without confirmation except for "rm", "del" etc
 - `--yy`: Execute commands without confirmation.
 - `--api-key KEY`: Specify the OpenAI API key (alternative to environment variable).
+- `--model MODEL_NAME`: Force the use of a different GPT model instead of the default "gpt-4o-mini".
 
 ### Examples
 
@@ -79,6 +82,11 @@ python ai_shellbrain.py [options]
    python ai_shellbrain.py --api-key YOUR_API_KEY
    ```
 
+5. Use a different GPT model:
+   ```
+   python ai_shellbrain.py --model gpt-3.5-turbo
+   ```
+
 ## How It Works
 
 1. The script prompts for user input.
@@ -95,9 +103,14 @@ python ai_shellbrain.py [options]
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/techmakers/ShellBrain/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/techmakers/AIShellBrain/issues) if you want to contribute.
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+Alessandro Vernassa
+
 
