@@ -101,7 +101,3 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
